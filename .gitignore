@@ -1,0 +1,53 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+
+# Production
+/build
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment
+.env*.local
+.env
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Scraping / Temporary analysis files
+/scraped_pages/
+/scraped_css/
+scraped_index.html
+*.py
+scene_*.html
+*_main.html
+*_snippet.html
+sample_card.html
+puppies_data.json
+faq_data.json
+scraped_js/
+
+
+create_commits.py
+
+rebuild_commits_with_dates.py
